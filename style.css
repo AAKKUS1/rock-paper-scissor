@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: radial-gradient(134.34% 134.34% at 50% 0%, #1F3757 0%, #131537 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding:50px 0px 50px 0px;
+    font-family: Barlow Semi Condensed;
+    color: white;
+    justify-content: space-between;
+}
+
+header{
+    width: 80%;
+    border: solid thin white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.RPS{
+    width: fit-content;
+}
+.RPS h3{
+    width: 10px;
+}
+.score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 72px;
+    width: 80px;
+    border-radius: 4px;
+}
+.score  p{
+    color: #2A45C2;
+}
+.score h1{
+    color: black;
+}
+button {
+    width: 128px;
+    height: 40px;
+    border: solid thin white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+button p{
+    size: 16px;
+    line-height: 19.2px;
+    font-weight: 600;
+}
+.picker{
+    background-color: white;
+    border-radius: 50%;
+    border: solid 15px red;
+    height: 133px;
+    width:130px ;
+    box-shadow: 1px 3px 3px 0px #00000032;
+    
+}
+#paper{
+ border-color: #4664F4;
+ box-shadow: 0px 50px gray ;
+}
+#rock{
+    color: #9D1634;
+}#scissor{
+    border-color: #EB9F0E;
+}
+.firstgroup{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 51px;
+}
+.secondgroup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.choser{
+    gap: 15px;
+}
+@media screen and (min-width:320px){
+    header{
+        border-radius: 15px;
+        width: 700px;
+    }
+}
